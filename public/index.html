@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="lib/css/style.css">
+</head>
+<body>
+<div class="header">
+    <h1 class="headText">Currency Converter</h1>
+</div>
+<div class="bodyContent">
+    <div class="topBanner">
+        <p class="bannerTextTop">
+            U.S. Dollar, USD
+        </p>
+    </div>
+
+    <img class="flagUSA" src="lib/img/flag-usa.png" alt="flag-usa" />
+
+    <input type="number" id="dollar-amt" />
+    <button onclick="calculate()" id="convert-btn">Go!</button>
+    <div class="bodyBanner">
+        <p class="bannerTextBody">
+            British Pound, GBP
+        </p>
+    </div>
+    <img class="flag" src="lib/img/flag-uk.png" />
+    <p>
+        &#163
+    </p>
+    <div class="amounts" id="amt-gbp"></div>
+    <div class="bodyBanner">
+        <p class="bannerTextBody">
+            Canadian Dollar, CAD
+        </p>
+    </div>
+    <img class="flag" src="lib/img/flag-canada.png" />
+    <p>
+        $
+    </p>
+    <div class="amounts" id="amt-cad" /></div>
+    <div class="bodyBanner">
+        <p class="bannerTextBody">
+            Euro, EUR
+        </p>
+    </div>
+    <img class="flag" src="lib/img/flag-euro.png" />
+    <p>
+        &#8364
+    </p>
+    <div class="amounts" id="amt-eur"></div>
+</div>
+<div class="footer">
+</div>
+
+
+<!-- Scripts -->
+<script type="text/javascript" src="lib/js/jquery.min.js"></script>
+<script type="text/javascript" src="lib/js/app.js"></script>
+</body>
+</html>
