@@ -1,4 +1,4 @@
-﻿body {
+body {
     background: #d9d9d9;
 }
 
@@ -129,4 +129,11 @@
 p {
     position: absolute;
     margin: -31px 0 0 75px;
+}
+
+.footnote
+{
+	margin: 12px 0 0 650px;
+	font-size: 12px;
+	
 }
